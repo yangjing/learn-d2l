@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+*.gz
+*.aux
+*.log
+*.out
+.ipynb*
+*.pyc
+tags
+.idea/*
+*.swp
+.DS_Store
+
+d2l-en.zip
+jax/
+tensorflow/
+pytorch/data/
+
