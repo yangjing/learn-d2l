@@ -1,6 +1,6 @@
 # Dive Into Deep Learning
 
-<https://d2l.ai/>
+[《动手学深度学习》](https://d2l.ai/) 学习及习题解答, Pytorch 版。
 
 ## Installation
 
