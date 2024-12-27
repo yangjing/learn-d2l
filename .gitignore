@@ -11,7 +11,7 @@ tags
 .DS_Store
 
 d2l-en.zip
-jax/
-tensorflow/
-pytorch/data/
+d2l-zh.zip
+d2l-en/pytorch/data/
+d2l-zh/pytorch/data/
 

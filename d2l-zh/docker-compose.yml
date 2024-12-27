@@ -1,0 +1,15 @@
+name: "d2l"
+
+services:
+  d2l-zh:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    platform: linux/amd64
+    working_dir: /notebook
+    command: ["jupyter", "notebook", "--allow-root", "--ip=0.0.0.0", "--port=8890"]
+    #command: ["tail", "-f", "/dev/null"]
+    ports:
+      - "8890:8890"
+    volumes:
+      - ./:/notebook
